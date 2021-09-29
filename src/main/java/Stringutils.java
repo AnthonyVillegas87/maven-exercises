@@ -1,8 +1,4 @@
-import org.apache.commons.lang3.StringUtils;
-
-import java.util.Scanner;
-
-public class Stringutils implements CharSequence {
+public class Stringutils {
 
 //    public Scanner sc;
 //
@@ -16,28 +12,27 @@ public class Stringutils implements CharSequence {
 
     public static void main(String[] args) {
 
-     Scanner sc = new Scanner(System.in);
-        System.out.println("Enter something: ");
-      String input = sc.nextLine();
-        System.out.println(StringUtils.isNumeric(input));
-        System.out.println(StringUtils.reverse(input));
-    }
+//     Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter something: ");
+//      String input = sc.nextLine();
+//        System.out.println(StringUtils.isNumeric(input));
+//        System.out.println(StringUtils.reverse(input));
+//    }
 
 
-
-
-    @Override
-    public int length() {
-        return 0;
-    }
-
-    @Override
-    public char charAt(int index) {
-        return 0;
-    }
-
-    @Override
-    public CharSequence subSequence(int start, int end) {
-        return null;
+//    @Override
+//    public int length() {
+//        return 0;
+//    }
+//
+//    @Override
+//    public char charAt(int index) {
+//        return 0;
+//    }
+//
+//    @Override
+//    public CharSequence subSequence(int start, int end) {
+//        return null;
+//    }
     }
 }

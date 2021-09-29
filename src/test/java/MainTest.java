@@ -9,6 +9,10 @@ public class MainTest {
       assertEquals(2, 2);
   }
 
-
+  @Test
+  public void testAssertions() {
+    int num = 2;
+    assertEquals(2, num);
+  }
 
 }
