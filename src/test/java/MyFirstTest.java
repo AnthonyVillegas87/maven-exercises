@@ -42,4 +42,14 @@ public class MyFirstTest {
 
    }
 
+   @Test
+    public void testReturnString() {
+    assertEquals("Well, hello!", Main.returnString("hello"));
+   }
+
+   @Test
+    public void testAdd() {
+     assertEquals(4, Main.add(2,2));
+   }
+
 }
