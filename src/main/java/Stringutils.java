@@ -4,23 +4,23 @@ import java.util.Scanner;
 
 public class Stringutils implements CharSequence {
 
-    public Scanner sc;
-
-    public Stringutils() {
-        this.sc = new Scanner(System.in);
-    }
-
-    public void getSc() {
-        sc.nextLine();
-    }
+//    public Scanner sc;
+//
+//    public Stringutils() {
+//        this.sc = new Scanner(System.in);
+//    }
+//
+//    public void getSc() {
+//        sc.nextLine();
+//    }
 
     public static void main(String[] args) {
 
-      Stringutils input = new Stringutils();
+     Scanner sc = new Scanner(System.in);
         System.out.println("Enter something: ");
-      input.getSc();
+      String input = sc.nextLine();
         System.out.println(StringUtils.isNumeric(input));
-        System.out.println(StringUtils.reverse(String.valueOf(input)));
+        System.out.println(StringUtils.reverse(input));
     }
 
 
